@@ -35,7 +35,7 @@ ul {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
 }
 
-.contact-wrapper > * {
+.contact-wrapper>* {
     padding: 1em;
 }
 
@@ -88,17 +88,23 @@ ul {
     outline: 0;
 }
 
+
 /* CONTACT INFO */
+
 .contact-info {
     background: #000;
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
 }
 
+
 /* LARGE SIZE */
+
 @media(min-width: 700px) {
     body {
         padding: 0 4em;
@@ -107,7 +113,7 @@ ul {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    .contact-wrapper > * {
+    .contact-wrapper>* {
         padding: 2em;
     }
     .contact-info h4,
@@ -116,30 +122,31 @@ ul {
         text-align: left;
     }
 }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+    background-color: #111;
 }
 
 .active {
-  background-color: #4CAF50;
+    background-color: rgb(175, 76, 81);
 }
