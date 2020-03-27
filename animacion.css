@@ -1,0 +1,119 @@
+.parrafo {
+    font-size: 1.5em;
+    text-align: center;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.danger {
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+.danger:hover {
+    animation: 1s chicle 1;
+}
+
+@keyframes chicle {
+    30% {
+        transform: scaleX(1.2) scaleY(0.7);
+    }
+    40% {
+        transform: scaleX(0.7) scaleY(1.2);
+    }
+    60% {
+        transform: scaleX(1.1) scaleY(0.8);
+    }
+}
+
+.myanimate {
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 50px;
+}
+
+.myanimate {
+    animation: reboteOut 1s infinite;
+}
+
+@keyframes reboteOut {
+    25% {
+        transform: scale(0.9);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(0.0);
+        opacity: 0;
+    }
+}
+
+.box {
+    display: inline-block;
+    margin: 50px 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transition: all 0.5s;
+    transform-style: preserve-3d;
+    transform-origin: left center;
+}
+
+.box>div {
+    border: 2px solid black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+    background-color: rgb(128, 0, 85);
+}
+
+.back {
+    background-color: rgb(255, 0, 119);
+    transform: translateZ(-100px) rotateY(90deg);
+    left: 100px;
+}
+
+.box:hover {
+    transform: perspective(800px) rotateY(-80deg);
+}
+
+.cartel {
+    font-family: Arial;
+    background-color: #45cf8a;
+    text-align: center;
+    font-weight: bolder;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin: 50px;
+    line-height: 100px;
+}
+
+.cartel:hover {
+    animation: 2s cartel infinite;
+    transform-origin: center top;
+}
+
+@keyframes cartel {
+    10% {
+        transform: rotate(20deg);
+    }
+    30% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    70% {
+        transform: rotate(-5deg);
+    }
+}

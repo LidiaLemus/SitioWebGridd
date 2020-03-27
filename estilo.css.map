@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACA,CAAE;EACE,gBAAgB,EAFjB,IAAI",
+"mappings": "AACA,CAAE;EACE,KAAK,EAFN,KAAK",
 "sources": ["prueba.scss"],
 "names": [],
 "file": "estilo.css"
