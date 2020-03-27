@@ -12,7 +12,20 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- ANIMATE CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="animacion.css">
+    <style>
+        h1 {
+            font-size: 60px;
+            color: rgb(243, 37, 54);
+            font-weight: bolder;
+        }
+        /* El efecto 3D se logra con sombras de textos */
+        
+        .texto3d {
+            text-shadow: -1px 1px 0px black, -2px 2px 0px black, -3px 3px 0px black, -4px 4px 0px black, -5px 5px 0px black;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,19 +36,23 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
                 <li><a href="contactanos.html">Contactanos</a></li>
                 <li style="float:right"><a class="active" href="acerca.html">Acerca De</a></li>
             </ul>
         </header>
 
-        <h1 class="logo">Informacion<span>Adquirida</span></h1>
+        <h1 class="texto3d" style="text-align: center;">Adquiere Nuestros Productos</h1>
 
         <div class="contact-wrapper animated bounceInUp">
-            <p class="texto">
-                Según instrucciones de las autoridades de gobierno el Laboratorio Nacional de Salud es la única entidad que puede realizar los procedimientos para la detección de COVID-19, esto queda registrado en comunicado número 33 con fecha 14 de marzo de 2020 en
-                el inciso 9 del Ministerio de Salud Pública y Asistencia Social.
+            <p class="texto" style="text-align: center;">
+                Los productos tienen una garantia de un año asi que aprecha nuestros descuentos, pregunta sobre nuestros productos ademas en la compra de tus productos te damos un premio por la compra en nuestra empresa de Electrodomesticos.
             </p>
 
+        </div>
+        <div class="box">
+            <div class="front">Encuentra las Mejores Ofertas</div>
+            <div class="back">y a los mejores precios</div>
         </div>
 
 </body>
