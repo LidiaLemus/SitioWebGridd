@@ -1,3 +1,5 @@
+/*Agregue varias animaciones con la libreria animate en los textos y etiquetas*/
+
 .parrafo {
     font-size: 1.5em;
     text-align: center;
@@ -116,4 +118,23 @@
     70% {
         transform: rotate(-5deg);
     }
+}
+
+div.color {
+    margin: 121px 149px;
+    width: 300px;
+    height: 180px;
+    background: #676470;
+    color: #fff;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+    transition: all 0.3s ease;
+    align-items: center;
+}
+
+div.color:hover {
+    background: #53a7ea;
 }
